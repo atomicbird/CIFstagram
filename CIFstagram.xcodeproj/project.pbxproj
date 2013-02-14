@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EECDC7A316CAF767003E6AF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECDC7A216CAF767003E6AF6 /* UIKit.framework */; };
+		EECDC7A516CAF767003E6AF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECDC7A416CAF767003E6AF6 /* Foundation.framework */; };
+		EECDC7A716CAF767003E6AF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECDC7A616CAF767003E6AF6 /* CoreGraphics.framework */; };
+		EECDC7AD16CAF767003E6AF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EECDC7AB16CAF767003E6AF6 /* InfoPlist.strings */; };
+		EECDC7AF16CAF767003E6AF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EECDC7AE16CAF767003E6AF6 /* main.m */; };
+		EECDC7B316CAF767003E6AF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EECDC7B216CAF767003E6AF6 /* AppDelegate.m */; };
+		EECDC7B516CAF767003E6AF6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EECDC7B416CAF767003E6AF6 /* Default.png */; };
+		EECDC7B716CAF767003E6AF6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EECDC7B616CAF767003E6AF6 /* Default@2x.png */; };
+		EECDC7B916CAF767003E6AF6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EECDC7B816CAF767003E6AF6 /* Default-568h@2x.png */; };
+		EECDC7BC16CAF768003E6AF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EECDC7BB16CAF768003E6AF6 /* ViewController.m */; };
+		EECDC7BF16CAF768003E6AF6 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECDC7BD16CAF768003E6AF6 /* ViewController_iPhone.xib */; };
+		EECDC7C216CAF768003E6AF6 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECDC7C016CAF768003E6AF6 /* ViewController_iPad.xib */; };
+		EECDC7C916CAFE7B003E6AF6 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECDC7C816CAFE7B003E6AF6 /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EECDC79F16CAF767003E6AF6 /* CIFstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIFstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECDC7A216CAF767003E6AF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EECDC7A416CAF767003E6AF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EECDC7A616CAF767003E6AF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EECDC7AA16CAF767003E6AF6 /* CIFstagram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CIFstagram-Info.plist"; sourceTree = "<group>"; };
+		EECDC7AC16CAF767003E6AF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EECDC7AE16CAF767003E6AF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EECDC7B016CAF767003E6AF6 /* CIFstagram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CIFstagram-Prefix.pch"; sourceTree = "<group>"; };
+		EECDC7B116CAF767003E6AF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EECDC7B216CAF767003E6AF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EECDC7B416CAF767003E6AF6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EECDC7B616CAF767003E6AF6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EECDC7B816CAF767003E6AF6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EECDC7BA16CAF768003E6AF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EECDC7BB16CAF768003E6AF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EECDC7BE16CAF768003E6AF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		EECDC7C116CAF768003E6AF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		EECDC7C816CAFE7B003E6AF6 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EECDC79C16CAF767003E6AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECDC7C916CAFE7B003E6AF6 /* CoreImage.framework in Frameworks */,
+				EECDC7A316CAF767003E6AF6 /* UIKit.framework in Frameworks */,
+				EECDC7A516CAF767003E6AF6 /* Foundation.framework in Frameworks */,
+				EECDC7A716CAF767003E6AF6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EECDC79616CAF767003E6AF6 = {
+			isa = PBXGroup;
+			children = (
+				EECDC7A816CAF767003E6AF6 /* CIFstagram */,
+				EECDC7A116CAF767003E6AF6 /* Frameworks */,
+				EECDC7A016CAF767003E6AF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EECDC7A016CAF767003E6AF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECDC79F16CAF767003E6AF6 /* CIFstagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EECDC7A116CAF767003E6AF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EECDC7C816CAFE7B003E6AF6 /* CoreImage.framework */,
+				EECDC7A216CAF767003E6AF6 /* UIKit.framework */,
+				EECDC7A416CAF767003E6AF6 /* Foundation.framework */,
+				EECDC7A616CAF767003E6AF6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EECDC7A816CAF767003E6AF6 /* CIFstagram */ = {
+			isa = PBXGroup;
+			children = (
+				EECDC7B116CAF767003E6AF6 /* AppDelegate.h */,
+				EECDC7B216CAF767003E6AF6 /* AppDelegate.m */,
+				EECDC7BA16CAF768003E6AF6 /* ViewController.h */,
+				EECDC7BB16CAF768003E6AF6 /* ViewController.m */,
+				EECDC7BD16CAF768003E6AF6 /* ViewController_iPhone.xib */,
+				EECDC7C016CAF768003E6AF6 /* ViewController_iPad.xib */,
+				EECDC7A916CAF767003E6AF6 /* Supporting Files */,
+			);
+			path = CIFstagram;
+			sourceTree = "<group>";
+		};
+		EECDC7A916CAF767003E6AF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECDC7AA16CAF767003E6AF6 /* CIFstagram-Info.plist */,
+				EECDC7AB16CAF767003E6AF6 /* InfoPlist.strings */,
+				EECDC7AE16CAF767003E6AF6 /* main.m */,
+				EECDC7B016CAF767003E6AF6 /* CIFstagram-Prefix.pch */,
+				EECDC7B416CAF767003E6AF6 /* Default.png */,
+				EECDC7B616CAF767003E6AF6 /* Default@2x.png */,
+				EECDC7B816CAF767003E6AF6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EECDC79E16CAF767003E6AF6 /* CIFstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECDC7C516CAF768003E6AF6 /* Build configuration list for PBXNativeTarget "CIFstagram" */;
+			buildPhases = (
+				EECDC79B16CAF767003E6AF6 /* Sources */,
+				EECDC79C16CAF767003E6AF6 /* Frameworks */,
+				EECDC79D16CAF767003E6AF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CIFstagram;
+			productName = CIFstagram;
+			productReference = EECDC79F16CAF767003E6AF6 /* CIFstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EECDC79716CAF767003E6AF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tom Harrington";
+			};
+			buildConfigurationList = EECDC79A16CAF767003E6AF6 /* Build configuration list for PBXProject "CIFstagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EECDC79616CAF767003E6AF6;
+			productRefGroup = EECDC7A016CAF767003E6AF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECDC79E16CAF767003E6AF6 /* CIFstagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EECDC79D16CAF767003E6AF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECDC7AD16CAF767003E6AF6 /* InfoPlist.strings in Resources */,
+				EECDC7B516CAF767003E6AF6 /* Default.png in Resources */,
+				EECDC7B716CAF767003E6AF6 /* Default@2x.png in Resources */,
+				EECDC7B916CAF767003E6AF6 /* Default-568h@2x.png in Resources */,
+				EECDC7BF16CAF768003E6AF6 /* ViewController_iPhone.xib in Resources */,
+				EECDC7C216CAF768003E6AF6 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EECDC79B16CAF767003E6AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECDC7AF16CAF767003E6AF6 /* main.m in Sources */,
+				EECDC7B316CAF767003E6AF6 /* AppDelegate.m in Sources */,
+				EECDC7BC16CAF768003E6AF6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EECDC7AB16CAF767003E6AF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECDC7AC16CAF767003E6AF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EECDC7BD16CAF768003E6AF6 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECDC7BE16CAF768003E6AF6 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		EECDC7C016CAF768003E6AF6 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECDC7C116CAF768003E6AF6 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EECDC7C316CAF768003E6AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EECDC7C416CAF768003E6AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EECDC7C616CAF768003E6AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CIFstagram/CIFstagram-Prefix.pch";
+				INFOPLIST_FILE = "CIFstagram/CIFstagram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EECDC7C716CAF768003E6AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CIFstagram/CIFstagram-Prefix.pch";
+				INFOPLIST_FILE = "CIFstagram/CIFstagram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EECDC79A16CAF767003E6AF6 /* Build configuration list for PBXProject "CIFstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECDC7C316CAF768003E6AF6 /* Debug */,
+				EECDC7C416CAF768003E6AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECDC7C516CAF768003E6AF6 /* Build configuration list for PBXNativeTarget "CIFstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECDC7C616CAF768003E6AF6 /* Debug */,
+				EECDC7C716CAF768003E6AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EECDC79716CAF767003E6AF6 /* Project object */;
+}
